@@ -1,0 +1,35 @@
+{
+  "name": "star-notary-project",
+  "version": "1.0.0",
+  "description": "Star Notary App built on Ethereum",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "@truffle/hdwallet-provider": "^1.0.42",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd app && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donriddo/star-notary-v2.git"
+  },
+  "keywords": [
+    "star",
+    "notary",
+    "erc721",
+    "token"
+  ],
+  "author": "donriddo@gmail.com <Ridwan Taiwo>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donriddo/star-notary-v2/issues"
+  },
+  "homepage": "https://github.com/donriddo/star-notary-v2#readme"
+}
